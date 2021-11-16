@@ -1,10 +1,22 @@
 <template>
-  <div id="nav">
+  <div id="header">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/Search">Rechercher</router-link> |
   </div>
   <router-view />
+  <div id="footer">
+    <p>&copy;teamChampions</p>
+  </div>
+  
 </template>
+
+<script>
+ 
+ 
+export default {
+  
+}
+</script>
 
 <style>
 #app {
